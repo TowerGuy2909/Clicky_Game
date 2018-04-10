@@ -15,14 +15,28 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Friends List</Title>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            id={friend.id}
-            key={friend.id}
-            image={friend.image}
-          />
-        ))}
+        <div className="container">
+          <div className="row">
+
+            <div className="col-md-2">
+            </div>
+
+            <div className="col-md-8 ">
+              <Title>Clicky Game</Title>
+              {this.state.friends.map(friend => (
+                <FriendCard
+                  id={friend.id}
+                  key={friend.id}
+                  image={friend.image}
+                />
+              ))}
+            </div>
+
+            <div className="col-md-2">
+            </div>
+
+          </div>
+        </div>
       </Wrapper>
     );
   }
