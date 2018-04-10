@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body, #root {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0px;
+  height: 100%;
+}
