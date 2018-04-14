@@ -60,15 +60,18 @@ handleClick(id) {
       <Wrapper>
         <div className="container">
           <Title>
-            <h2>Clicky Game</h2>
+            <h1>Clicky Game</h1>
             <h6>Click on an image to earn points, but don't click on any more than once!</h6>
-
+            <div>
+          <span>  your score: {this.state.score}</span>
+         <br/>
+           <span>   top score: {this.state.topScore}</span>
+           </div>
           </Title>
           <div className="row">
 
             <div className="col-md-2">
-            your score: {this.state.score}
-            top score: {this.state.topScore}
+            
             </div>
 
             <div className="col-md-8 ">
