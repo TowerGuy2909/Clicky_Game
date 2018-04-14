@@ -63,9 +63,8 @@ handleClick(id) {
             <h1>Clicky Game</h1>
             <h6>Click on an image to earn points, but don't click on any more than once!</h6>
             <div>
-          <span>  your score: {this.state.score}</span>
-         <br/>
-           <span>   top score: {this.state.topScore}</span>
+          <h6 style={{marginRight: 0 + 'em'}}>  your score: {this.state.score} {"  "}</h6> 
+          <h6>top score: {this.state.topScore}</h6>
            </div>
           </Title>
           <div className="row">
